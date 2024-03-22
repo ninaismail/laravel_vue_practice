@@ -1,7 +1,9 @@
 <template>
-    Table comming soon!
+    Hello, {{ user.name }} Table comming soon!
 </template>
 
-<script>
-
+<script setup>
+const props = defineProps({
+    user: Object
+});
 </script>
